@@ -9,6 +9,7 @@ import com.example.recyclerview.SuperHero
 class SuperHeroAdapter(
     private val superHeroList: List<SuperHero>,
     private val onClickListener: (SuperHero) -> Unit
+// el totin la vende
 ) : RecyclerView.Adapter<SuperHeroViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperHeroViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
